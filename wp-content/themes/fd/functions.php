@@ -4,7 +4,7 @@
 
 add_action( 'init', 'fd_imp_order_post_type' );
 /**
- * Register a book post type.
+ * Register a ORDER post type.
  *
  * @link http://codex.wordpress.org/Function_Reference/register_post_type
  */
@@ -48,7 +48,7 @@ function fd_imp_order_post_type() {
 
 add_action( 'init', 'fd_imp_status_post_type' );
 /**
- * Register a book post type.
+ * Register a ORDER-STATUS post type.
  *
  * @link http://codex.wordpress.org/Function_Reference/register_post_type
  */
