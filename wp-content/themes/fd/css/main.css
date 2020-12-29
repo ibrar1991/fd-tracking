@@ -1,0 +1,183 @@
+.c2i-table>thead>tr>th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #000;
+	background-color: #000;
+	color: #FFF;
+	vertical-align: middle;
+}
+.c2i-table{
+	font-size:inherit;
+	color:inherit;
+}
+.c2i-table-bordered {
+	border: 1px solid #ddd;
+	border-top-color: #000;
+}
+.c2i-table-bordered>thead>tr>th, .c2i-table-bordered>thead>tr>td {
+	border-bottom-width: 2px;
+	border-color: #000;
+}
+
+
+.c2i-form-control{
+	border-color:#dedede;
+	border-radius:0;
+	box-shadow:0 0 0 1px #dedede inset;
+}
+
+.c2i-form-inline .c2i-form-control {
+	min-width:270px;
+}
+.c2i-form-control:focus{
+	border-color:#CCC;
+	box-shadow:0 0 0 1px #CCC inset;
+}
+
+.c2i-row.c2i-gutter-sm{
+	margin-left:-10px;
+	margin-right:-10px;
+}
+
+[class*="c2i-col-"].c2i-gutter-sm{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.spacer-bottom-xs{
+	margin-bottom:5px;
+}
+.spacer-bottom-sm{
+	margin-bottom:10px;
+}
+.spacer-bottom{
+	margin-bottom:20px;
+}
+.spacer-bottom-md{
+	margin-bottom:30px;
+}
+.spacer-bottom-lg{
+	margin-bottom:40px;
+}
+.spacer-bottom-xl{
+	margin-bottom:50px;
+}
+.spacer-top-xs{
+	margin-top:5px;
+}
+.spacer-top-sm{
+	margin-top:10px;
+}
+.spacer-top{
+	margin-top:20px;
+}
+.spacer-top-md{
+	margin-top:30px;
+}
+.spacer-top-lg{
+	margin-top:40px;
+}
+.spacer-top-xl{
+	margin-top:50px;
+}
+
+.spacer-left-xs{
+	margin-left:5px;
+}
+.spacer-left-sm{
+	margin-left:10px;
+}
+.spacer-left{
+	margin-left:20px;
+}
+.spacer-left-md{
+	margin-left:30px;
+}
+.spacer-left-lg{
+	margin-left:40px;
+}
+.spacer-left-xl{
+	margin-left:50px;
+}
+
+
+.spacer-right-xs{
+	margin-right:5px;
+}
+.spacer-right-sm{
+	margin-right:10px;
+}
+.spacer-right{
+	margin-right:20px;
+}
+.spacer-right-md{
+	margin-right:30px;
+}
+.spacer-right-lg{
+	margin-right:40px;
+}
+.spacer-right-xl{
+	margin-right:50px;
+}
+
+
+.pad10{
+	padding:10px;
+}
+.pad20{
+	padding:20px;
+}
+.pad30{
+	padding:30px;
+}
+.pad40{
+	padding:40px;
+}
+.pad50{
+	padding:50px;
+}
+
+.brand img{
+	max-width:100%;
+	height:auto;
+}
+.help-block.error{
+	display:inline-block;
+	margin-right:10px;
+}
+.inline-block{
+	display:inline-block;
+}
+.inline-block .help-block.error{
+	display:block;
+	text-align:left;
+	color:#C00;
+	margin-top:5px;
+}
+.c2i-form-inline .inline-block{
+	vertical-align:top;
+}
+
+.m-bottom{
+	margin-bottom: 30px;
+}
+
+.bottom-fixed{
+	position: fixed;bottom: 0px;
+}
+
+@media  (min-width:768px) and  (max-width:1410px){
+	.c2i-form-inline .c2i-form-control {
+		width:180px;
+		min-width:0;
+	}
+}
+@media   (max-width:767px){
+
+	.c2i-form-inline .c2i-form-control {
+		min-width: 0;	
+	}
+
+	.c2i-search-btn{
+		margin-top:20px;
+	}
+}
